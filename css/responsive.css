@@ -24,8 +24,9 @@
   }
 }
 @media (max-width: 800px) {
-  .destination_container {
-    grid-template-columns: repeat(2,1fr);
+  .destination_container,
+  .commitment_container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 625px) {
@@ -35,7 +36,9 @@
   .banner_content h1 {
     font-size: 40px;
   }
-  .destination_container {
+  .destination_container,
+  .commitment_container,
+  .testimonial_container {
     grid-template-columns: 1fr;
   }
 }
