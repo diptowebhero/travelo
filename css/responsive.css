@@ -1,0 +1,41 @@
+@media (max-width: 940px) {
+  .btn-primary {
+    display: none;
+  }
+  .toggle-menu-btn {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-500px);
+    transition: 0.3s;
+    background-color: #f4f4ff;
+    padding: 10px 0px;
+  }
+  .navigation li {
+    display: block;
+  }
+  #toggle-menu:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+}
+@media (max-width: 800px) {
+  .destination_container {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width: 625px) {
+  .search_box_main {
+    display: none;
+  }
+  .banner_content h1 {
+    font-size: 40px;
+  }
+  .destination_container {
+    grid-template-columns: 1fr;
+  }
+}
