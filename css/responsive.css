@@ -41,4 +41,7 @@
   .testimonial_container {
     grid-template-columns: 1fr;
   }
+  .commit_box {
+    text-align: center;
+  }
 }
